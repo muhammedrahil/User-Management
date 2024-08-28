@@ -1,0 +1,10 @@
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+*.pyc
+media
+logs
+.env
+.vscode
+user_env
+.idea

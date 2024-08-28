@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Lead Circle</title>
+
+<style type="text/css">
+  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+</style>
+<link rel='stylesheet' id='font-awesome-css' href='https://use.fontawesome.com/releases/v5.8.1/css/all.css?ver=5.3.2' media='all' />
+
+</head>
+
+<style>
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
+
+div,
+p,
+a,
+li,
+td {
+  -webkit-text-size-adjust: none;
+}
+
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.ExternalClass {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  width: 100%;
+}
+
+p {
+  padding: 0 ;
+  margin-top: 0 ;
+  margin-right: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 0 ;
+}
+
+.visibleMobile {
+  display: none;
+}
+
+.hiddenMobile {
+  display: block;
+}
+th, td {
+    text-align: left;
+}
+@media only screen and (max-width: 892px) {
+  body {
+    width: auto !important;
+  }
+
+  table[class=fullTable] {
+    width: 96% !important;
+    clear: both;
+  }
+
+  table[class=fullPadding] {
+    width: 85% !important;
+    clear: both;
+  }
+
+  table[class=col] {
+    width: 45% !important;
+  }
+
+  .erase {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  table[class=fullTable] {
+    width: 100% !important;
+    clear: both;
+  }
+
+  table[class=fullPadding] {
+    width: 85% !important;
+    clear: both;
+  }
+
+  table[class=col] {
+    width: 100% !important;
+    clear: both;
+  }
+
+  table[class=col] td {
+    text-align: left !important;
+  }
+
+  .erase {
+    display: none;
+    font-size: 0;
+    max-height: 0;
+    line-height: 0;
+    padding: 0;
+  }
+
+  .visibleMobile {
+    display: block !important;
+  }
+
+  .hiddenMobile {
+    display: none !important;
+  }
+}
+
+</style>
+
+<body>
+
+<!-- email content start -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="fullTable" bgcolor="#fafafa" style="font-family: 'Open Sans', sans-serif;">
+    <tr>
+      <td height="20"></td>
+    </tr>
+    <tr>
+      <td>
+        <table width="650px" border="0" cellpadding="0" cellspacing="0" align="center" class="fullTable" bgcolor="#ffffff" style="border-radius: 10px; padding: 20px;">
+          {% if platform_logo %}
+          <tr>
+            <td>
+              <table style="width: 100%; margin: 0 auto 15px;">
+                <tr>
+                  <td style="vertical-align: middle;text-align: center;">
+                    <img style="width:250px;" src="{{platform_logo}}" alt="">
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          {% endif %}
+
+          <tr>
+              <td>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="fullPadding" style="">
+                    <tbody>
+                      <tr>
+                        <td style="width:100%;">
+                          <h4 style="margin-top:0;margin-bottom: 20px;">Hi {{user_name}}!</h4>
+<!--                          <p style="font-size:15px;margin-bottom:15px;line-height: 22px;">{{message}}</p>-->
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="width:100%;">
+                          {{message}}
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="width:100%;margin-top: 50px;display: inline-block;">
+                          <h4 style="margin-top:0;margin-bottom: 5px;">Regards</h4>
+                          <p style="font-size:15px;margin-bottom:15px;line-height: 22px;">{{company_name}}</p>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+              </td>
+            </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="20"></td>
+    </tr>
+  </table>
+  <!-- email content end -->
+
+</body>
+
+</html>

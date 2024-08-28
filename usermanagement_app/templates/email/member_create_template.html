@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Our Platform</title>
+</head>
+<body>
+    <h2>Hello {{ user_name }},</h2>
+
+    <p>Your account has been created successfully.</p>
+
+    <p>Here are your login details:</p>
+
+    <ul>
+        <li><strong>Username:</strong> {{ user_name }}</li>
+        <li><strong>Password:</strong> {{ user_password }}</li>
+    </ul>
+
+    <p>You can now <a href="{{login_url}}" style="background-color:#000000;color: #fff;font-size: 16px; border-radius: 10px; padding: 10px 20px; display: inline-block; text-decoration: none;">LOGIN</a>
+ to our platform using the provided credentials.</p>
+
+    <p>Thank you for joining!</p>
+
+    <p>Best regards,</p>
+    <p>{{company_name}}</p>
+</body>
+</html>
