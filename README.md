@@ -1,6 +1,8 @@
 # User-Management
 This project is a powerful, tenant-based user management system that allows for the management of platforms, projects, roles, rights, and members. Built using Django, this system is designed to be highly customizable and scalable, making it suitable for a wide range of applications.
 
+#### [Full Api Documentaion click Here](https://documenter.getpostman.com/view/25199832/2sAXjGdEMD#58d9a911-f02c-4b49-a2ec-e194b7833492)
+
 ## Features
 - Platform Management: Create and manage multiple platforms within the system.
 - Project Management: Organize platforms into projects with specific configurations.
