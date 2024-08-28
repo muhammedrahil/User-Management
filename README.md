@@ -104,6 +104,6 @@ Tenant Management inclusive of the Platforms, Projects, Roles, User Types, Right
 
 - Member Platform is the unqiue id and it should be considered as user_id or member_id across the projects and platforms.
 
-
+# Database Diagram
 
 ![Databsa-Diagram.png](https://github.com/user-attachments/assets/182b9835-90db-41df-9921-21d30e93eeb9)
