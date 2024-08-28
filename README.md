@@ -106,8 +106,4 @@ Tenant Management inclusive of the Platforms, Projects, Roles, User Types, Right
 
 
 
-
-
-
-
-
+![Databsa-Diagram.png](https://github.com/user-attachments/assets/182b9835-90db-41df-9921-21d30e93eeb9)
